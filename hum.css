@@ -10,30 +10,14 @@ body {
 }
 
 a {
-  border-radius: 100%;
   font-size: max(2rem, var(--vol) * 1.618rem);
   display: inline-flex;
-  text-decoration-line: line-through;
+  text-decoration-line: dotted;
 }
 
-nav {
-  align-items: center;
-  box-sizing: border-box;
-  contain: layout;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  margin: auto;
-  margin-right: 10vw;
-  min-height: 100vh;  
-  padding: 20vh 10vw;
+article {
+  padding: 1rem;
 }
 
-:nth-child(1n) { --vol: 1 }
-:nth-child(2n) { --vol: 1.618 }
-:nth-child(3n) { --vol: 2.618 }
-:nth-child(odd) { text-decoration-style: double }
-:nth-child(even) { text-decoration-style: dotted }
 :focus { text-decoration-style: solid }
 :hover { text-decoration-style: wavy }
-:target a { transform: rotate(99deg) }
