@@ -1,22 +1,17 @@
 ::selection {
-  background: #ee1;
-  color: darkviolet;
+  background: yellow;
+  color: purple;
 }
 
 :root {
-  background-color: coral;
-  background-image: radial-gradient(plum, hotpink, violet, orchid, hotpink);
-  color: indigo;
+  background-color: mediumorchid;
+  background-image: radial-gradient(plum, orchid, orange);
+  color: black;
 }
 
 :any-link {
   color: indigo;
   background-color: transparent;
-  text-shadow:
-    2vw -3vh 1pc,
-    3vw 3vh 1pc,
-    5vw -3vh 1pc,
-    -2vw 3vh 3pc;
 }
 
 :focus {
@@ -29,4 +24,3 @@ a:hover {
   color: indigo;
   background-color: skyblue;
 }
-
